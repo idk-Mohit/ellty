@@ -1,0 +1,19 @@
+.tick {
+    display: block;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity var(--transition-fast) ease, transform var(--transition-fast) ease;
+    overflow: visible;
+}
+
+/* Style of the check path: stroke-dash technique for "drawing" animation */
+.tick-path {
+    stroke: var(--tick-color);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 30;
+    /* enough for M5 13.5 ... path */
+    stroke-dashoffset: 30;
+    /* hidden initially */
+    transition: stroke-dashoffset var(--transition-medium) cubic-bezier(.2, .9, .2, 1);
+}

@@ -1,0 +1,17 @@
+.simple-btn {
+    height: 40px;
+    width: 340px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    font-weight: 400;
+    background-color: rgba(255, 206, 34, 1);
+    /* padding: 10px 16px; */
+    /* color: #000; */
+    transition: background-color 140ms ease;
+}
+
+.simple-btn:hover {
+    background-color: rgba(255, 216, 77, 1);
+}
