@@ -14,7 +14,7 @@
 .checkbox-list-item:focus-visible {
     outline: none;
     /* optional focus style */
-    background: rgba(0, 0, 0, 0.02);
+    /* background: rgba(0, 0, 0, 0.02); */
 }
 
 .checkbox-list-item-label {
